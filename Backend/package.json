@@ -5,13 +5,14 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "dev":"nodemon index.js",
+    "start": "nodemon index.js",
+    "build":" npm install && npm install --prefix Frontend && npm run build --prefix Frontend"
   },
   "keywords": [
     "MERN"
   ],
-  "author": "Akhilesh",
+  "author": "Juned",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
